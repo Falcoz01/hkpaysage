@@ -1,0 +1,58 @@
+import type { Testimonial } from "@/types";
+
+export const testimonials: Testimonial[] = [
+  {
+    id: "t1",
+    author: "Marie-Claire D.",
+    city: "Caluire-et-Cuire",
+    rating: 5,
+    text: "Équipe très professionnelle et à l'écoute. Notre jardin a été entièrement repensé en 3 semaines. Le résultat dépasse nos attentes — chaque détail a été soigné. Je recommande sans hésiter !",
+    service: "Création de jardin",
+    date: "Octobre 2024",
+  },
+  {
+    id: "t2",
+    author: "Thierry M.",
+    city: "Décines-Charpieu",
+    rating: 5,
+    text: "Pose de terrasse en composite impeccable. Les délais ont été respectés, les ouvriers polis et soigneux. La terrasse est superbe, on est ravis. On a déjà pris contact pour l'arrosage automatique.",
+    service: "Terrasse & Pavage",
+    date: "Août 2024",
+  },
+  {
+    id: "t3",
+    author: "Sophie & Laurent B.",
+    city: "Villeurbanne",
+    rating: 5,
+    text: "Notre jardin zen est exactement comme nous l'avions imaginé — peut-être même mieux ! L'équipe a su interpréter nos idées et proposer des solutions originales. Merci pour votre patience et votre créativité.",
+    service: "Création de jardin",
+    date: "Juillet 2024",
+  },
+  {
+    id: "t4",
+    author: "Jean-Pierre F.",
+    city: "Bron",
+    rating: 5,
+    text: "Contrat d'entretien depuis 2 ans. Toujours à l'heure, travail propre et sérieux. Mon gazon n'a jamais été aussi beau. Un vrai plaisir d'avoir affaire à une équipe aussi fiable.",
+    service: "Entretien annuel",
+    date: "Septembre 2024",
+  },
+  {
+    id: "t5",
+    author: "Nathalie R.",
+    city: "Saint-Priest",
+    rating: 4,
+    text: "Très bonne prestation pour l'élagage de mes grands pins. Travail soigné, évacuation des branches incluse. Je regrette juste un petit délai d'attente pour le devis, mais le résultat est là.",
+    service: "Élagage & Abattage",
+    date: "Novembre 2024",
+  },
+  {
+    id: "t6",
+    author: "Camille & Hugo T.",
+    city: "Lyon 3e",
+    rating: 5,
+    text: "On a fait appel à HK Paysage pour notre terrasse et nos massifs. Le chef de chantier a été de très bon conseil sur les végétaux. Tout est magnifique. Nos voisins nous demandent leur numéro !",
+    service: "Terrasse & Plantations",
+    date: "Juin 2024",
+  },
+];

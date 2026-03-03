@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run build:*)",
+      "Bash(/Users/alexandrefalcoz/Documents/paysagiste/data/services.ts:*)",
+      "Bash(/Users/alexandrefalcoz/Documents/paysagiste/components/home/Hero.tsx:*)",
+      "Bash(curl:*)"
+    ]
+  }
+}
